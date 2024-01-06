@@ -1,0 +1,12 @@
+{
+    "name": "My Docker Container",
+    "image": "ruby:3.1.4", // Replace with your desired Ruby version
+    "extensions": [
+      "ruby"
+    ],
+    "forwardPorts": [3000], // List ports to forward
+    "appPort": [3000], // Port where your application is running
+    "postCreateCommand": "bundle install",
+    "remoteUser": "vscode"
+  }
+  

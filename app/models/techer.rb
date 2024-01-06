@@ -1,0 +1,2 @@
+class Techer < ApplicationRecord
+end

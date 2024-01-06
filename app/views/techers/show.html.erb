@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @techer %>
+
+<div>
+  <%= link_to "Edit this techer", edit_techer_path(@techer) %> |
+  <%= link_to "Back to techers", techers_path %>
+
+  <%= button_to "Destroy this techer", @techer, method: :delete %>
+</div>
